@@ -1,3 +1,3 @@
-CFLAGS=-std=c99 -Wall -ledit
+CFLAGS=-std=c99 -Wall  -ledit -lm
 
-main: main.c
+parsing: mpc.c parsing.c
